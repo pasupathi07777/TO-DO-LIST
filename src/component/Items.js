@@ -9,8 +9,12 @@ const Items = ({ item }) => {
         //     <Del_button />
 
         // </form>
-        <li className='llist'  key={item.id} >
-            <input type="checkbox" checked={item.checked} name="" id="" />
+        <li className='llist' key={item.id} >
+            {/* <input type="checkbox" checked={item.checked} name="" id="checkbox" /> */}
+            <label class="circle-checkbox">
+                <input type="checkbox" checked={item.checked} name="" id="checkbox" />
+
+            </label>
             <p>{item.details}</p>
             <Del_button />
 
