@@ -188,8 +188,11 @@ header {
     border: none;
     padding: 5px 5px;
     border-radius: 5px;
-    background-color: #e84118;
+    background-color:transparent;
+    color: red;
     font-weight: 600;
+    font-size: 24px;
+
 
 
     font-weight: 600;
@@ -199,14 +202,16 @@ header {
     position: relative;
     cursor: pointer;
     font-size: 16px;
+    /* width: 20px;
+    height: 20px; */
 }
 
 .circle-checkbox input {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     border: 2px solid #333;
     border-radius: 50%;
     outline: none;
@@ -260,6 +265,8 @@ header {
 
     text-align: center;
     padding: 5px 10px;
+
+    font-size: 24px;
    
 }
 

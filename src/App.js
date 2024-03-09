@@ -18,7 +18,7 @@ import { useState } from 'react';
   function App() {
     let App_details={
       app_name:"To DoList",
-      // app_footer:App_details.app_footer
+     
   
     }
 
@@ -108,24 +108,5 @@ import { useState } from 'react';
 
 export default App;
 
-//  let users=[
-  // {
-  //   id:1,
-  //   checked:true,
-  //   details:"play cricket",
 
-  // },
-  // {
-  //   id:2,
-  //   checked:true,
-  //   details:"play foodball",
-    
-  // },
-  // {
-  //   id:3,
-  //   checked:false,
-  //   details:"play cooding",
-    
-  // }
-// ]
 
