@@ -185,8 +185,11 @@ header {
 }
 
 .llist button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: none;
-    padding: 5px 5px;
+    /* padding: 5px 5px; */
     border-radius: 5px;
     background-color:transparent;
     color: red;

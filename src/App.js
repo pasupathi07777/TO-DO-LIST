@@ -17,7 +17,7 @@ import { useState } from 'react';
 
   function App() {
     let App_details={
-      app_name:"To DoList",
+      app_name:"To Do List",
      
   
     }

@@ -3,7 +3,7 @@ import { FaTrashAlt } from "react-icons/fa";
 
 const Delete = () => {
   return (
-    <div><FaTrashAlt /></div>
+    <><FaTrashAlt /></>
   )
 }
 
